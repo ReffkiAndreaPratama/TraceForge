@@ -1,0 +1,347 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "TraceForge fixtures",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "id": "page_1",
+        "title": "fixture",
+        "startedDateTime": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2024-01-01T00:00:00.000Z",
+        "time": 12.5,
+        "request": {
+          "method": "GET",
+          "url": "https://api.example.test/v1/users/42",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "TraceForge-Fixtures/1.0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer supersecrettoken"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "session=abc; Path=/"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 74,
+            "mimeType": "application/json",
+            "text": "{\"id\": 42, \"name\": \"Ada\", \"email\": \"ada@example.test\", \"roles\": [\"admin\"]}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 74
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.1,
+          "dns": -1,
+          "connect": 1.2,
+          "send": 0.1,
+          "wait": 10.0,
+          "receive": 1.1,
+          "ssl": 0.5
+        },
+        "serverIPAddress": "93.184.216.34",
+        "connection": "4242"
+      },
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2024-01-01T00:00:01.000Z",
+        "time": 12.5,
+        "request": {
+          "method": "GET",
+          "url": "https://api.example.test/v1/users/43",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "TraceForge-Fixtures/1.0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer supersecrettoken"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "session=abc; Path=/"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 71,
+            "mimeType": "application/json",
+            "text": "{\"id\": 43, \"name\": \"Grace\", \"email\": \"grace@example.test\", \"roles\": []}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 71
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.1,
+          "dns": -1,
+          "connect": 1.2,
+          "send": 0.1,
+          "wait": 10.0,
+          "receive": 1.1,
+          "ssl": 0.5
+        },
+        "serverIPAddress": "93.184.216.34",
+        "connection": "4242"
+      },
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2024-01-01T00:00:02.000Z",
+        "time": 12.5,
+        "request": {
+          "method": "POST",
+          "url": "https://api.example.test/v1/sessions?redirect=https://portal.example.test",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "TraceForge-Fixtures/1.0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer supersecrettoken"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "redirect",
+              "value": "https://portal.example.test"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 61,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"username\": \"ada\", \"password\": \"hunter2\", \"token\": \"abc123\"}"
+          }
+        },
+        "response": {
+          "status": 201,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "session=abc; Path=/"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 38,
+            "mimeType": "application/json",
+            "text": "{\"session\": \"s-1\", \"expires_in\": 3600}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 38
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.1,
+          "dns": -1,
+          "connect": 1.2,
+          "send": 0.1,
+          "wait": 10.0,
+          "receive": 1.1,
+          "ssl": 0.5
+        },
+        "serverIPAddress": "93.184.216.34",
+        "connection": "4242"
+      },
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2024-01-01T00:00:03.000Z",
+        "time": 12.5,
+        "request": {
+          "method": "GET",
+          "url": "https://api.example.test/v1/health",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "TraceForge-Fixtures/1.0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer supersecrettoken"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "session=abc; Path=/"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 16,
+            "mimeType": "application/json",
+            "text": "{\"status\": \"ok\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 16
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.1,
+          "dns": -1,
+          "connect": 1.2,
+          "send": 0.1,
+          "wait": 10.0,
+          "receive": 1.1,
+          "ssl": 0.5
+        },
+        "serverIPAddress": "93.184.216.34",
+        "connection": "4242"
+      },
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2024-01-01T00:00:04.000Z",
+        "time": 12.5,
+        "request": {
+          "method": "GET",
+          "url": "https://api.example.test/v1/missing",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "TraceForge-Fixtures/1.0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer supersecrettoken"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 404,
+          "statusText": "Error",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "session=abc; Path=/"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 22,
+            "mimeType": "application/json",
+            "text": "{\"error\": \"not found\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 22
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.1,
+          "dns": -1,
+          "connect": 1.2,
+          "send": 0.1,
+          "wait": 10.0,
+          "receive": 1.1,
+          "ssl": 0.5
+        },
+        "serverIPAddress": "93.184.216.34",
+        "connection": "4242"
+      }
+    ]
+  }
+}

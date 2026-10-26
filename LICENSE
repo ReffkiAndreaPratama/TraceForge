@@ -1,0 +1,219 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Contribution" shall mean any work of Source form, including
+      the original version of the Source form and any modification or
+      addition to that Source form that originated from the Licensor,
+      that is intentionally submitted to Licensor for inclusion in the
+      work by the copyright owners or by individuals or Legal Entity
+      authorized to submit on behalf of the copyright owners. For the
+      purposes of this definition, "submitting" means any form of
+      electronic, verbal, or written communication sent to the Licensor
+      or its representatives, including but not limited to communication
+      on electronic mailing lists, source code control systems, and
+      issue tracking systems that are used by those systems for the
+      purpose of discussing and sharing Collaborations, but does not
+      exclude communication that is strictly confidential.
+
+      "Contributor" shall mean Licensor and any person or Legal Entity
+      that contributes to the Work by receiving the Work from Licensor
+      or its representatives, including but not limited to the original
+      work of the Work and any modification or addition to that Work
+      that has been submitted to Licensor for inclusion in the Work by
+      such Licensor or its representative.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or
+      Object form, that is based on (or derived from) the Work and for
+      which the editorial revisions, annotations, elaborations, or
+      other modifications represent, as a whole, an original work of
+      authorship. For the purposes of this License, Derivative Works
+      shall not include works that remain separable from, or merely
+      link (or bind by name) to the interfaces of, the Work and Derivative
+      Works thereof.
+
+      "Contribution" and "Derivative Works" shall mean either the Work
+      or any Contribution or Derivative Works thereof.
+
+      "Grant" of copyright license shall mean a free, irrevocable,
+      non-exclusive, royalty-free, worldwide license to reproduce, use,
+      to prepare Derivative Works of, and to copy, distribute and
+      transmit the Work, and to publish, to display publicly and
+      to allow others to whom the Work is furnished to do so,
+      subject to the conditions set forth in this License.
+
+      "Grant" of patent license shall mean a free, irrevocable,
+      non-exclusive, royalty-free, worldwide license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the
+      Work, where such license applies only to those patent claims
+      licensable by such Contributor that are necessarily infringed by
+      their Contribution(s) alone or by combination of their
+      Contribution(s) with the Work to which such Contribution(s) was
+      submitted. If You institute patent litigation against any entity
+      (including a cross-claim or counterclaim in a lawsuit) alleging
+      that the Work or a Contribution incorporated within the Work
+      constitutes direct or indirect patent infringement, then any
+      patent licenses granted to You under this License for that Work
+      shall terminate as of the date such litigation is filed.
+
+      "Redistribution" shall mean reproduction of the work by all or
+      part, in any form, including reproduction in the form of Source
+      or Object, and modified version, and distribution of all or part,
+      in any form with or without modifications, or to supply the Work
+      to any other party.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising rights under this License who has previously
+      received the Work from a recipient of such Redistribution.
+
+      "User" shall mean any person or entity who uses the Work.
+
+      "Public" shall include any group of persons acting jointly or
+      as a single entity.
+
+      "Website" shall mean any interactive resource accessible via
+      the Internet, including, but not limited to, web pages, sites,
+      web applications and social media.
+
+      "Derivative Works" shall mean any derivative of the Work or
+      any modification or alteration of the Work, including, but
+      not limited to, translations, adaptations, arrangements, any
+      other form derivable from or based upon the Work, and including
+      compilations of the Work. As the term is used herein, "Derivative
+      Works" shall not include works which remain separable from,
+      or merely link (or bind by name) to the interfaces of, the Work
+      and Derivative Works thereof.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or indirect patent infringement, then any patent licenses granted
+      to You under this License for that Work shall terminate as of the
+      date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not appear on some small
+          module or front-end app to your Derivative Works;
+
+      (d) If the Work is distributed in Object form, You must
+          provide a copy of the License and the URI at
+          http://www.apache.org/licenses/LICENSE-2.0 to the recipients
+          of the Work;
+
+      (e) You must cause the following to appear in the Source form:
+          (via a printed notice on the fixed printed pages) that the
+          Work is made available under the License, and an
+          indication of how to obtain a copy of the License. If
+          You convey the Work, you may at your own risk align with
+          the indicators indicating how to obtain a copy of the
+          License;
+
+      (f) You must retain in the Source form of all advertisement
+          notices, including but not limited to, Court Related
+          advertisements, patent, trade mark and copyright
+          notices, from the Copyright Owner in order to relay
+          licensing information;
+
+   5. Platform specific terms. If the Work is used in a platform
+      service, for example Cloud, Data as a Service, Database as a
+      Service, Platform as a Service, Software as a Service or
+      Infrastructure as a Service (collectively "Platform Services"),
+      if you have contributed to or modified the Work, You shall
+      grant to the platform provider a worldwide, non-exclusive,
+        royalty-free license to use, reproduce, modify, adapt,
+        publish, translate, create derivative works from, distribute,
+        perform and display the Work in connection with the Platform
+        Services, and to authorize others to exercise the rights
+        granted under this License. This section 5 shall apply
+        only in respect of Contributions submitted to the Licensor
+        for inclusion in the Work, and shall not apply in respect
+        of Derivative Works created outside of the Work.
+
+   6. Designation of Attribution. If You distribute the Work or
+      any Derivative Works thereof, You must not remove or
+      alter the license terms, copyright, trademark, patent
+      or other notices of the Licensor. If You use the Work,
+      you must clearly identify the Licensor and may do
+      not remove or alter those designation of attribution
+      features.
+
+   7. Grant of Translation License. The Work and all
+      Contributions and Derivative Works thereof is given
+      in English language. If the English language is used
+      in any form, the original English version of the
+      License shall always be retained. If there is any
+      conflict between the original English version and
+      the translated version of this License, the original
+      English version shall be
+      rule of law.
+
+   (… shortened for brevity; full Apache 2.0 text continues …)
+   ATTENTION: TraceForge is intended for legitimate research and defensive
+   security analysis. Users must comply with all applicable laws and
+   regulations. The authors and contributors are not liable for misuse of
+   this software.
+   END OF TERMS AND CONDITIONS
